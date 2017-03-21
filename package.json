@@ -7,6 +7,7 @@
     "example": "examples"
   },
   "scripts": {
+    "start": "node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,5 +29,9 @@
   "bugs": {
     "url": "https://github.com/fta2012/ccv-js/issues"
   },
-  "homepage": "https://github.com/fta2012/ccv-js#readme"
+  "homepage": "https://github.com/fta2012/ccv-js#readme",
+  "devDependencies": {
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  }
 }
